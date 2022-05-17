@@ -2,7 +2,7 @@ package kr.tpc;
 
 import lombok.Getter;
 
-
+@Getter
 public class BookDTO {
     public String title;
     public int price;
