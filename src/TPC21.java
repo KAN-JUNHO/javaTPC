@@ -1,5 +1,3 @@
-package kr;
-
 import kr.tpc.Animal;
 import kr.tpc.Cat;
 import kr.tpc.Dog;
@@ -19,7 +17,6 @@ public class TPC21 {
 
         ani = new Cat();//up casting
         ani.eat();
-
 //        Cat cc =(Cat)ani;
 //        cc.night();
         ((Cat) ani).night();
